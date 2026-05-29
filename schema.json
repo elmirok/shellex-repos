@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/elmirok/shellex-repos/schema.json",
+  "title": "Shellex Limax Repository Registry",
+  "type": "object",
+  "required": ["schema", "name", "repos"],
+  "properties": {
+    "schema": {
+      "const": "shellex-repos-v1"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "homepage": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "repos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "url"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "appId": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/?$"
+          },
+          "description": {
+            "type": "string"
+          },
+          "essential": {
+            "type": "boolean"
+          },
+          "packagePath": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

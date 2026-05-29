@@ -1,0 +1,65 @@
+{
+  "schema": "shellex-repos-v1",
+  "name": "Shellex Official App Repositories",
+  "description": "Public registry of official Shellex app repositories consumable by Limax.",
+  "homepage": "https://github.com/elmirok/shellex-repos",
+  "updatedAt": "2026-05-29T00:00:00.000Z",
+  "repos": [
+    {
+      "name": "Limax",
+      "appId": "system.limax.local",
+      "url": "https://github.com/elmirok/shellex-limax",
+      "description": "Essential package manager for installing Shellex apps from repositories.",
+      "essential": true,
+      "packagePath": "package.sapp.json"
+    },
+    {
+      "name": "W3",
+      "appId": "system.w3.local",
+      "url": "https://github.com/elmirok/shellex-w3",
+      "description": "i3-inspired tiling window manager for Shellex OS.",
+      "essential": false,
+      "packagePath": "package.sapp.json"
+    },
+    {
+      "name": "Succinea",
+      "appId": "system.succinea.local",
+      "url": "https://github.com/elmirok/shellex-succinea",
+      "description": "Small status bar for Shellex version, W3 desktops, memory, storage and running apps.",
+      "essential": false,
+      "packagePath": "package.sapp.json"
+    },
+    {
+      "name": "Indexella",
+      "appId": "system.indexella.local",
+      "url": "https://github.com/elmirok/shellex-indexella",
+      "description": "Keyboard app finder for installed Shellex apps.",
+      "essential": false,
+      "packagePath": "package.sapp.json"
+    },
+    {
+      "name": "Filella",
+      "appId": "system.filella.local",
+      "url": "https://github.com/elmirok/shellex-filella",
+      "description": "Vault file manager for browsing, creating and editing files.",
+      "essential": false,
+      "packagePath": "package.sapp.json"
+    },
+    {
+      "name": "Punctum",
+      "appId": "system.punctum.local",
+      "url": "https://github.com/elmirok/shellex-punctum",
+      "description": "Keyboard-friendly text editor for vault files.",
+      "essential": false,
+      "packagePath": "package.sapp.json"
+    },
+    {
+      "name": "History",
+      "appId": "system.history.local",
+      "url": "https://github.com/elmirok/shellex-history",
+      "description": "Shell history viewer for recent commands and output.",
+      "essential": false,
+      "packagePath": "package.sapp.json"
+    }
+  ]
+}
