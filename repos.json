@@ -3,7 +3,7 @@
   "name": "Shellex Official App Repositories",
   "description": "Public registry of official Shellex app repositories consumable by Limax.",
   "homepage": "https://github.com/elmirok/shellex-repos",
-  "updatedAt": "2026-05-29T00:00:00.000Z",
+  "updatedAt": "2026-05-31T19:57:21.987Z",
   "repos": [
     {
       "name": "Limax",
@@ -58,14 +58,6 @@
       "appId": "system.history.local",
       "url": "https://github.com/elmirok/shellex-history",
       "description": "Shell history viewer for recent commands and output.",
-      "essential": false,
-      "packagePath": "package.sapp.json"
-    },
-    {
-      "name": "Smux",
-      "appId": "app.smux.local",
-      "url": "https://github.com/elmirok/smux",
-      "description": "GPL workspace mux adapted from cmux for Shellex vault workspaces.",
       "essential": false,
       "packagePath": "package.sapp.json"
     }

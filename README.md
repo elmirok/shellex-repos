@@ -13,7 +13,6 @@ limax repo sync https://github.com/elmirok/shellex-repos
 limax repos
 limax install W3
 limax install Filella
-limax install Smux
 limax update
 ```
 
