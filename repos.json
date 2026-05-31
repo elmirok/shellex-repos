@@ -60,6 +60,14 @@
       "description": "Shell history viewer for recent commands and output.",
       "essential": false,
       "packagePath": "package.sapp.json"
+    },
+    {
+      "name": "Smux",
+      "appId": "app.smux.local",
+      "url": "https://github.com/elmirok/smux",
+      "description": "GPL workspace mux adapted from cmux for Shellex vault workspaces.",
+      "essential": false,
+      "packagePath": "package.sapp.json"
     }
   ]
 }
