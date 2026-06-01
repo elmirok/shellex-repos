@@ -3,7 +3,7 @@
   "name": "Shellex Official App Repositories",
   "description": "Public registry of official Shellex app repositories consumable by Limax.",
   "homepage": "https://github.com/elmirok/shellex-repos",
-  "updatedAt": "2026-06-01T20:02:06.990Z",
+  "updatedAt": "2026-06-01T20:46:00.000Z",
   "repos": [
     {
       "name": "Limax",
@@ -67,6 +67,15 @@
       "essential": false,
       "packagePath": "package.sapp.json",
       "expectedSha256": "39987cfe8f9ab9e91af2b8b3e4897679dd71e4965da1947abdced790fdadf805"
+    },
+    {
+      "name": "RogueShell",
+      "appId": "games.rogue-shell.local",
+      "url": "https://github.com/elmirok/shellex-rogue-shell",
+      "description": "Browser-first d20 roguelike for Shellex with optional local AI narration.",
+      "essential": false,
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "737267567568d32f5b66403f1be563297a812eed744baca1b5ba40c2b0d7e45b"
     }
   ]
 }
