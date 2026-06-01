@@ -3,7 +3,7 @@
   "name": "Shellex Official App Repositories",
   "description": "Public registry of official Shellex app repositories consumable by Limax.",
   "homepage": "https://github.com/elmirok/shellex-repos",
-  "updatedAt": "2026-06-01T21:25:00.000Z",
+  "updatedAt": "2026-06-02T00:25:00.000+03:00",
   "repos": [
     {
       "name": "Limax",
@@ -75,7 +75,7 @@
       "description": "Browser-first d20 roguelike for Shellex with optional local AI narration.",
       "essential": false,
       "packagePath": "package.sapp.json",
-      "expectedSha256": "df1c376c0c2ea9490e2db89a8c31fb22a0693cd8b44fc7b3c4a0ce4eeb969397"
+      "expectedSha256": "9664b4f1986ccdaeff190d50ab699d8975835ca5631774666d7ef4eda0af2c69"
     }
   ]
 }
