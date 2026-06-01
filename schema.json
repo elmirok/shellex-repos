@@ -46,6 +46,10 @@
           },
           "packagePath": {
             "type": "string"
+          },
+          "expectedSha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
           }
         },
         "additionalProperties": true

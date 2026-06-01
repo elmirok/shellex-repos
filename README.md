@@ -36,7 +36,11 @@ Each listed app repo should expose:
 package.sapp.json
 ```
 
-on `main` or `master`.
+on `main` or `master`. Each registry entry may include `expectedSha256`; Limax uses it to reject a package whose fetched SHA-256 does not match the official registry pin.
+
+## Trust Pins
+
+The official registry records SHA-256 pins for current app packages. When app packages are released, update the app repo first, then update `repos.json` with the new package hash.
 
 ## Privacy
 

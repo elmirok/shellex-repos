@@ -3,7 +3,7 @@
   "name": "Shellex Official App Repositories",
   "description": "Public registry of official Shellex app repositories consumable by Limax.",
   "homepage": "https://github.com/elmirok/shellex-repos",
-  "updatedAt": "2026-05-31T19:57:21.987Z",
+  "updatedAt": "2026-06-01T20:02:06.990Z",
   "repos": [
     {
       "name": "Limax",
@@ -11,7 +11,8 @@
       "url": "https://github.com/elmirok/shellex-limax",
       "description": "Essential package manager for installing Shellex apps from repositories.",
       "essential": true,
-      "packagePath": "package.sapp.json"
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "6b40b62f9061fb62a7fd3b83dffe38a521fd4945768ca0942cb9623a6c3fca10"
     },
     {
       "name": "W3",
@@ -19,7 +20,8 @@
       "url": "https://github.com/elmirok/shellex-w3",
       "description": "i3-inspired tiling window manager for Shellex OS.",
       "essential": false,
-      "packagePath": "package.sapp.json"
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "06c6fc18aa88c36d7b7c0c4027125b9b0561d73aa295c424d510a5feae128081"
     },
     {
       "name": "Succinea",
@@ -27,7 +29,8 @@
       "url": "https://github.com/elmirok/shellex-succinea",
       "description": "Small status bar for Shellex version, W3 desktops, memory, storage and running apps.",
       "essential": false,
-      "packagePath": "package.sapp.json"
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "86d8fb4730b5595d940e8a37c161e5a394e76337c51cd61ff5077f393a3ea7f3"
     },
     {
       "name": "Indexella",
@@ -35,7 +38,8 @@
       "url": "https://github.com/elmirok/shellex-indexella",
       "description": "Keyboard app finder for installed Shellex apps.",
       "essential": false,
-      "packagePath": "package.sapp.json"
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "86a35af74ef6d8e32b305413905c8c8bc3ced9d5f95b69a3c63f5de70e5e3f75"
     },
     {
       "name": "Filella",
@@ -43,7 +47,8 @@
       "url": "https://github.com/elmirok/shellex-filella",
       "description": "Vault file manager for browsing, creating and editing files.",
       "essential": false,
-      "packagePath": "package.sapp.json"
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "4d6361bf1aea1ae82ad82cb5be802b98137a0f12440354b147734e798792be35"
     },
     {
       "name": "Punctum",
@@ -51,7 +56,8 @@
       "url": "https://github.com/elmirok/shellex-punctum",
       "description": "Keyboard-friendly text editor for vault files.",
       "essential": false,
-      "packagePath": "package.sapp.json"
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "84668e1c5c1cc1d07e5751fb8427740238f9bf43b12bfb0e5a383ecff7d25dad"
     },
     {
       "name": "History",
@@ -59,7 +65,8 @@
       "url": "https://github.com/elmirok/shellex-history",
       "description": "Shell history viewer for recent commands and output.",
       "essential": false,
-      "packagePath": "package.sapp.json"
+      "packagePath": "package.sapp.json",
+      "expectedSha256": "39987cfe8f9ab9e91af2b8b3e4897679dd71e4965da1947abdced790fdadf805"
     }
   ]
 }
