@@ -12,7 +12,7 @@
       "description": "Essential package manager for installing Shellex apps from repositories.",
       "essential": true,
       "packagePath": "package.sapp.json",
-      "expectedSha256": "6b40b62f9061fb62a7fd3b83dffe38a521fd4945768ca0942cb9623a6c3fca10"
+      "expectedSha256": "529f0d710c9941f88726f596c2d2eff5cb4482d6ef5d88999b0b9879c784db94"
     },
     {
       "name": "W3",
